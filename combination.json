@@ -1,0 +1,46 @@
+{
+    "Game": "ArcanaTactics",
+    "Describe": "合成表",
+    "Content": [
+        {
+            "name": "劍士",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "弓箭手",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "盜賊",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "巫師",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "祭師",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "戰士",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "槍術士",
+            "level":0,
+            "element":null
+        },
+        {
+            "name": "精靈",
+            "level":0,
+            "element":null
+        }
+    ]
+}
