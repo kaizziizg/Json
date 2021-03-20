@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script src="vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <p>目前使用的框架為 {{framework}}</br>
+                {{Heros.Game}}</br>
+               遊戲版本為 {{Heros.version}}</br></p>
+            
+
+
+            <div v-for="hero in Heros.Contents">
+                <div class="hero">{{hero.name}}</div>
+            </div>
+
+            
+        </div>
+        <script>
+            var app = new Vue({
+                el: "#app", //element
+                data: {
+                    message: "Hello Vue!",
+                    framework: "Vue",
+                    Heros: [],
+                    // Test: [],
+                },
+                mounted() {
+                    fetch("./combination.json")
+                        .then((res) => res.json())
+                        .then((Heros) => (this.Heros = Heros));
+                    // fetch("./test.json")
+                    //     .then((res) => res.json())
+                    //     .then((Test) => (this.Test = Test));
+                },
+            });
+        </script>
+    </body>
+</html>

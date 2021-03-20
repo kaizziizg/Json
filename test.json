@@ -1,0 +1,88 @@
+[
+    {
+        "name": "劍士",
+        "job":"Swordman",
+        "type":"Fire",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "弓箭手",
+        "job":"Archer",
+        "type":"Nature",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "盜賊",
+        "job":"Rogue",
+        "type":"Dark",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "巫師",
+        "job":"Wizard",
+        "type":"Dark",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "祭師",
+        "job":"Cleric",
+        "type":"Light",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "戰士",
+        "job":"Warrior",
+        "type":"None",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "槍術士",
+        "job":"Lancer",
+        "type":"Ice",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "精靈",
+        "job":"Spirit",
+        "type":"None",
+        "level":0,
+        "element":null
+    },
+    {
+        "name": "魔劍士",
+        "job":"Swordman",
+        "type":"Fire",
+        "level":1,
+        "element":["劍士","槍術士"]
+    },
+    {
+        "name": "聖騎士",
+        "job":"Swordman",
+        "type":"Light",
+        "level":1,
+        "element":["劍士","劍士"]
+    },
+    {
+        "name": "狙擊手",
+        "job":"Archer",
+        "type":"Fire",
+        "level":1,
+        "element":["弓箭手","弓箭手"]
+    },
+    {
+        "name": "追擊者",
+        "job":"Archer",
+        "type":"Nature",
+        "level":1,
+        "element":["弓箭手","盜賊"]
+    }
+
+
+]
